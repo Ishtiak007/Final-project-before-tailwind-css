@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final project before Tailwind-css</title>
+
+
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css">
+    
+<!-- bootstrap cdn  -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+
+<!--font awesome cdn -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+    <!-- navbar -->
+    <nav class="nav-top" id="home">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-auto">
+                    <p><i></i><span>ishtiak.sparrow98@gmail.com</span></p>
+                    <p>
+                       <i></i>
+                       Phone: 01737-223990 
+                    </p>
+                </div>
+                <div class="col-auto">
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#protfolio">Protfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#reviews">Reviews</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#blog">Blog</a>
+              </li>             
+            </ul>
+            <button class="btn btn-primary ms-lg-3" ><a data-bs-toggle="modal" data-bs-target="#exampleModal" class="text-white " style="text-decoration: none;" href="#">Contact Us</a></button>
+          </div>
+        </div>
+      </nav>
+
+
+
+      <!-- slideing -->
+
+
+      <div class="container-fluid  bg-color">
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel" data-bs-pause="hover">
+          <div class="carousel-inner">
+
+
+
+
+            <div class="carousel-item active" data-bs-interval="3000">
+               <div class="slider-wrapper">
+                   <div class="slide1 min-vh-100 bg-cover d-flex align-items-center">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 ms-5">
+                                    <h6 class="text-uppercase text-white">I Craft digital experiance</h6>
+                                    <h1 class="dixplay-2 my-3 text-white text-uppercase">Design Driven<br> For Professionals</h1>
+                                    <a href="" class="btn btn-primary">Get started</a>
+                                    <a href="" class="btn btn-outline-light ms-md-3">My works</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                 </div>
+          </div> 
+           
+           
+
+
+           <div class="carousel-item" data-bs-interval="3000">
+              <div class="slider-wrapper">
+               <div class="slide2 min-vh-100 bg-cover d-flex align-items-center">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 text-center">
+                                <h6 class="text-uppercase text-white">I Craft digital experiance</h6>
+                                <h1 class="dixplay-2 my-3 text-white text-uppercase">Design Driven<br> For Professionals</h1>
+                                <a href="" class="btn btn-primary">Get started</a>
+                                <a href="" class="btn btn-outline-light ms-md-3">My works</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>         
+              </div>
+          </div>  
+
+
+
+
+
+
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-visible"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+            <span class="visually-visible"></span>
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            
+          </button>
+        </div>
+       </div>
+
+
+
+       <section id="about">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-lg-5">
+                    <div class="row">
+                        <div class="col-12 info-box">
+                            <img src="icon1.png" alt="">
+                            <div>
+                                <h5>Digital Marketing
+                                </h5>
+                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, accusamus?</p>
+                            </div>
+                        </div>
+                        <div class="col-12 info-box mt-4">
+                            <img src="icon5.png" alt="">
+                            <div>
+                                <h5>Web Devlopment
+                                </h5>
+                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, accusamus?</p>
+                            </div>
+                        </div>
+                        <div class="col-12 info-box mt-4">
+                            <img src="icon6.png" alt="">
+                            <div>
+                                <h5>Software Devlopment
+                                </h5>
+                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, accusamus?</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <img src="about.png" alt="">
+                </div>
+            </div>
+        </div>
+       </section>
+
+       <!-- milestone starts -->
+
+       <section id="milestone" class="back-ground-cover">
+        <div class="container">
+            <div class="row gy-4 text-center justify-content-center">
+                <div class="col-lg-2 col-sm-6">
+                    <div class="display-4">4546</div>
+                    <p class="mb-0">
+                        Happy Clients
+                    </p>
+                </div>
+                <div class="col-lg-2 col-sm-6">
+                    <div class="display-4">35677</div>
+                    <p class="mb-0">
+                        Line of clients
+                    </p>
+                </div>
+                <div class="col-lg-2 col-sm-6">
+                    <div class="display-4">967433</div>
+                    <p class="mb-0">
+                        Happy Clients
+                    </p>
+                </div>
+                <div class="col-lg-2 col-sm-6">
+                    <div class="display-4">2334</div>
+                    <p class="mb-0">
+                        Happy Mates
+                    </p>
+                </div>
+            </div>
+           </div>
+       </section>
+
+
+        <!-- services starts -->
+       <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 intro text-center">
+                    <h6>My services</h6>
+                <h1>What me provide?</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus eaque provident illum!dipisicing elit. Ducimus eaque provident illum</p>
+                </div>               
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service-box">
+                        <img src="icon1.png" alt="">
+                        <h5>web Devlopment</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod illum ullam possimus quae aut in. Consequuntur fugiat consectetur numquam maiores.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service-box">
+                        <img src="icon2.png" alt="">
+                        <h5>web Devlopment</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod illum ullam possimus quae aut in. Consequuntur fugiat consectetur numquam maiores.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service-box">
+                        <img src="icon3.png" alt="">
+                        <h5>web Devlopment</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod illum ullam possimus quae aut in. Consequuntur fugiat consectetur numquam maiores.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service-box">
+                        <img src="icon4.png" alt="">
+                        <h5>web Devlopment</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod illum ullam possimus quae aut in. Consequuntur fugiat consectetur numquam maiores.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service-box">
+                        <img src="icon5.png" alt="">
+                        <h5>web Devlopment</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod illum ullam possimus quae aut in. Consequuntur fugiat consectetur numquam maiores.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service-box">
+                        <img src="icon6.png" alt="">
+                        <h5>web Devlopment</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod illum ullam possimus quae aut in. Consequuntur fugiat consectetur numquam maiores.</p>
+                    </div>
+                </div>
+            </div>
+           </div>
+       </section>
+
+       <section id="protfolio" class="bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 intro text-center">
+                    <h6>My Works</h6>
+                <h1>My resent work</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus eaque provident illum!dipisicing elit. Ducimus eaque provident illum</p>
+                </div>               
+            </div>
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel" data-bs-pause="hover">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="3000">
+                    <div class="project-container">
+                        <div class="row">
+                            <div class="col-lg-6 col-sm-12">
+                                <img src="project1.jpg" width="400px">
+                                <h1>Our team work</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At totam quis excepturi veritatis incidunt, enim magni vero maxime eum tenetur maiores fuga illum saepe voluptatibus praesentium ratione necessitatibus dolorum porro!</p>
+                            </div>
+                            <div class="col-lg-6 col-sm-12">
+                                <img src="project2.jpg" width="400px">
+                                <h1>Our team work-2</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At totam quis excepturi veritatis incidunt, enim magni vero maxime eum tenetur maiores fuga illum saepe voluptatibus praesentium ratione necessitatibus dolorum porro!</p>
+                            </div>
+                        </div>                        
+                    </div>
+                    
+                  </div>
+                  <div class="carousel-item" data-bs-interval="3000">
+                    <div class="project-container">
+                        <div class="row">
+                            <div class="col-lg-6 col-sm-12">
+                                <img src="project3.jpg" width="400px">
+                                <h1>Our team work</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At totam quis excepturi veritatis incidunt, enim magni vero maxime eum tenetur maiores fuga illum saepe voluptatibus praesentium ratione necessitatibus dolorum porro!</p>
+                            </div>
+                            <div class="col-lg-6 col-sm-12">
+                                <img src="project4.jpg" width="400px">
+                                <h1>Our team work-2</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At totam quis excepturi veritatis incidunt, enim magni vero maxime eum tenetur maiores fuga illum saepe voluptatibus praesentium ratione necessitatibus dolorum porro!</p>
+                            </div>
+                        </div>                        
+                    </div>
+                    
+                  </div>
+                  <div class="carousel-item" data-bs-interval="3000">
+                    <div class="project-container">
+                        <div class="row">
+                            <div class="col-lg-6 col-sm-12">
+                                <img src="project5.jpg" width="400px">
+                                <h1>Our team work</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At totam quis excepturi veritatis incidunt, enim magni vero maxime eum tenetur maiores fuga illum saepe voluptatibus praesentium ratione necessitatibus dolorum porro!</p>
+                            </div>
+                            <div class="col-lg-6 col-sm-12">
+                                <img src="project1.jpg" width="400px">
+                                <h1>Our team work-2</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At totam quis excepturi veritatis incidunt, enim magni vero maxime eum tenetur maiores fuga illum saepe voluptatibus praesentium ratione necessitatibus dolorum porro!</p>
+                            </div>
+                        </div>                        
+                    </div>
+                    
+                  </div>
+                  
+                 
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon-hidden" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                  <span class="carousel-control-next-icon-hidden" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            
+        </div>
+       </section>
+
+       <section id="team">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 intro text-center">
+                    <h6>My Team</h6>
+                    <h1>Meet my team-mates</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime laudantium, aspernatur quis soluta doloremque rerum hic maiores placeat accusantium! Ducimus ipsam reiciendis voluptate amet consectetur quasi ex libero natus rerum!</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="team-member">
+                        <div class="img-wrapper">
+                            <img src="cover-image.jpg" alt="">
+                        </div>
+                        
+                        <div class="content border text-center mt-4">
+                            <h5>Markus Tonis</h5>
+                            <p>SEO expart</p>
+                            <p>Eni one valo kaj kore</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="team-member">
+                        <div class="img-wrapper">
+                            <img src="cover-image.jpg" alt="">
+                        </div>
+                        
+                        <div class="content border text-center mt-4">
+                            <h5>Vuganda jo formas</h5>
+                            <p>Web designer</p>
+                            <p>Eenar kaj er vul dhora mane bokami</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="team-member">
+                        <div class="img-wrapper">
+                            <img src="cover-image.jpg" alt="">
+                        </div>
+                        
+                        <div class="content border text-center mt-4">
+                            <h5>Markus Tonis</h5>
+                            <p>AI mastar</p>
+                            <p>Enar kotha r ki bolbo,Enake niye beshi kichu bolar naie</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </section>
+
+
+       <section id="reviews">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 intro text-center">
+                    <h6>Reviews</h6>
+                <h1 class="text-white">Claint Reviews</h1>
+                <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>               
+            </div>
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel" data-bs-pause="hover">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="3000">
+                    <div class="project-container">
+                        <div class="row">
+                            <div class="col-lg-12 col-sm-12 text-center">
+                                <img src="team_2.jpg" class="rounded-circle review-member">
+                        
+                                <p class="text-white review-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. At totam quis excepturi veritatis incidunt, enim magni vero maxime eum tenetur maiores fuga illum saepe voluptatibus praesentium ratione necessitatibus dolorum porro!</p>
+                                
+                                    <tr>
+                                        <td class="font-weight-bolder text-white "></td>
+                                        <td>
+                                            <span class="star">
+                                                <i class="fas fa-star text-white"></i>
+                                                <i class="fas fa-star text-white"></i>
+                                                <i class="fas fa-star text-white"></i>
+                                                <i class="fas fa-star text-white"></i>
+                                                <i class="far fa-star text-white"></i>
+                                            </span>
+                                        </td>
+                                    </tr>
+                                
+                            </div>
+                        </div>                        
+                    </div>
+                    
+                  </div>
+                  <div class="carousel-item" data-bs-interval="3000">
+                    <div class="project-container">
+                        <div class="row">
+                            <div class="col-lg-12 col-sm-12 text-center">
+                                <img src="team_3.jpg" class="rounded-circle review-member">
+                        
+                                <p class="text-white review-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. At totam quis excepturi veritatis incidunt, enim magni vero maxime eum tenetur maiores fuga illum saepe voluptatibus praesentium ratione necessitatibus dolorum porro!</p>
+                                <tr>
+                                    <td class="font-weight-bolder text-white "></td>
+                                    <td>
+                                        <span class="star">
+                                            <i class="fas fa-star text-white"></i>
+                                            <i class="fas fa-star text-white"></i>
+                                            <i class="fas fa-star text-white"></i>
+                                            <i class="fas fa-star text-white"></i>
+                                            <i class="far fa-star text-white"></i>
+                                        </span>
+                                    </td>
+                                </tr>
+                            </div>
+                        </div>                        
+                    </div>
+                    
+                  </div>
+                  <div class="carousel-item" data-bs-interval="3000">
+                    <div class="project-container">
+                        <div class="row">
+                            <div class="col-lg-12 col-sm-12 text-center">
+                                <img src="team_1.jpg" class="rounded-circle review-member">
+                        
+                                <p class="text-white review-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. At totam quis excepturi veritatis incidunt, enim magni vero maxime eum tenetur maiores fuga illum saepe voluptatibus praesentium ratione necessitatibus dolorum porro!</p>
+                                <tr>
+                                    <td class="font-weight-bolder text-white "></td>
+                                    <td>
+                                        <span class="star">
+                                            <i class="fas fa-star text-white"></i>
+                                            <i class="fas fa-star text-white"></i>
+                                            <i class="fas fa-star text-white"></i>
+                                            <i class="fas fa-star text-white"></i>
+                                            <i class="far fa-star text-white"></i>
+                                        </span>
+                                    </td>
+                                </tr>
+                            </div>
+                        </div>                       
+                    </div>
+                    
+                  </div>
+                  
+                 
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon-hidden" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                  <span class="carousel-control-next-icon-hidden" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            
+        </div>
+       </section>
+
+
+
+
+       <section id="blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 intro text-center">
+                    <h6>Latest blog posts</h6>
+                <h1>What me provide?</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus eaque provident illum!dipisicing elit. Ducimus eaque provident illum</p>
+                </div>               
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="blog-post">
+                        <p class="tag">Web Developer</p>
+                        <img src="project4.jpg" alt=""></img>
+                        <small>16Aug,2022</small>
+                        <h4><a href="">Web Development</a></h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores nam excepturi ducimus magni sequi? Beatae ipsa atque deserunt dolor. Soluta architecto sint vero temporibus sequi voluptatem veniam nobis sapiente laborum.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="blog-post">
+                        <p class="tag">Web Developer</p>
+                        <img src="project1.jpg" alt=""></img>
+                        <small>16Aug,2022</small>
+                        <h4><a href="">Web Design in 2024</a></h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores nam excepturi ducimus magni sequi? Beatae ipsa atque deserunt dolor. Soluta architecto sint vero temporibus sequi voluptatem veniam nobis sapiente laborum.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="blog-post">
+                        <p class="tag">Web Developer</p>
+                        <img src="project2.jpg" alt=""></img>
+                        <small>16Aug,2022</small>
+                        <h4><a href="">Web Design in 2024</a></h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores nam excepturi ducimus magni sequi? Beatae ipsa atque deserunt dolor. Soluta architecto sint vero temporibus sequi voluptatem veniam nobis sapiente laborum.</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        
+       </section>
+
+
+
+       <section id="footer">
+        <div class="top-row">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center text-white">
+                        <a class="navbar-brand" href="#">Navbar</a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At eius ab eligendi est repellat pariatur fugit! Harum aspernatur inventore dolor exercitationem assumenda et, sit dignissimos maxime tempora dolorum illum sequi.</p>
+                        <div class="social-link">
+                            <button class="social-btn"><a href="https://www.facebook.com/ishtiakahmed01999"><i class="icon-style fab fa-facebook-f " style="color: blue;"></i></a></button>
+                    <button class="social-btn"><a href="https://www.instagram.com/ishtiak_ahmed99/"><i class="icon-style fab fa-instagram " style="color: #f5513f;" ></i></a></button>
+                    <button class="social-btn"><a href="https://twitter.com/Ishtiak02236404"><i class="icon-style fab fa-twitter " style="color: #1A8CD8;"></i></a></button>
+                    <button class="social-btn"><a href="https://twitter.com/Ishtiak02236404"><i class="icon-style fab fa-github " style="color: black;"></i></a></button>
+                        </div>
+                    </div>
+                </div>
+                <hr class="text-white">
+                <div class="bottom-row">
+                    <div class="row">
+                        <div class="container">
+                            <div class="col-lg-12 text-center text-white">
+                                <p>Developed By &COPY; Ishtiak Ahmed.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </section>
+
+
+       <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+          <div class="modal-content">
+            <!-- <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div> -->
+            <div class="modal-body p-0">
+             <div class="container-fluid">
+
+                <div class="row">
+                    <div class="col-lg-4 bg-cover contact-img" style="background-image: url(cover-image.jpg); min-height: 330px;">
+                        
+                    </div>
+
+                    <div class="col-lg-8 ">
+                        <h1>Hello there!</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <div class="col-12">
+                            <form class="p-3 bg-white text-dark w-85">
+        <div class="mb-3 form-floating">
+            <label class="form-lable" for="name">Name:</label>
+        <input type="text" id="name" class="form-control" >
+        </div>
+
+        <div class="mb-3">
+            <label class="form-lable" for="email">Email:</label>
+        <input type="email" id="email" class="form-control" >
+        <div class="form-text">Your email remain will private</div>
+        </div>
+
+
+        <div class="mb-3">
+            <div class="form-check-inline">
+                <input type="radio" class="form-check-input" id="male">
+                <label for="male">Male</label>
+            </div>
+            <div class="form-check-inline">
+                <input type="radio" class="form-check-input" id="female">
+                <label for="female">Female</label>
+            </div>
+        </div>
+
+
+        <div class="mb-3">
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="tnc">
+                <label for="tnc">Terms and Conditions</label>
+            </div>
+        </div>
+        
+        <div class="mb-3">
+            <label for="department">Department:</label>
+            <select name="department" id="department" class="form-select">
+                <option value="CSE" selected>CSE</option>
+                <option value="EEE">EEE</option>
+                <option value="CE">CE</option>
+                <option value="LLB">LLB</option>
+            </select>
+        </div>
+        
+        <div class="mb-3">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Submit</button>
+        </div>
+    </form>
+                        </div>
+                    </div>
+                </div>
+
+                    
+
+                    
+                    
+                </div>
+               </div>
+
+            <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Submit</button> -->
+            
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="slider-wrapper">
+
+
+        <div class="slide1 min-vh-100 bg-cover d-flex align-items-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h6 class="text-uppercase text-white">I Craft digital experiance</h6>
+                        <h1 class="dixplay-2 my-3 text-white text-uppercase">Design Driven<br> For Professionals</h1>
+                        <a href="" class="btn btn-primary">Get started</a>
+                        <a href="" class="btn btn-outline-light ms-md-3">My works</a>
+                    </div>
+                </div>
+            </div>
+        </div> 
+
+
+      </div> -->
+
+
+
+  <!-- bootstrap js,jquery,popper -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>  
+</body>
+
+</html>
